@@ -2,10 +2,10 @@ package gotype
 
 import "log"
 
-type Color int8
+type Color uint8
 
 const (
-	_ = iota // iota generates incrementing numbers starting from 0
+	Empty = iota // iota generates incrementing numbers starting from 0
 	Black
 	White
 )
